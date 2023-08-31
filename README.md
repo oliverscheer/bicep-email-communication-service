@@ -14,6 +14,14 @@ setx COMMUNICATION_SERVICES_CONNECTION_STRING="<yourConnectionString>"
 dotnet run
 ```
 
+## Setting up the Azure Communication Service
+
+You just run the file `email.bicep` against your Azure Subscription.
+
+If the infrastructure is set up completely, you just need to add your domain configuration and let Azure verify it.
+
+After that you are ready for the next step.
+
 ## Sending Emails with Azure Communication Services in .NET Using DotNetEnv
 
 Modern applications often require the capability to send transactional and marketing emails to users. Azure Communication Services provides a robust platform for enabling email communication within your applications. In this article, we'll explore how to send emails using Azure Communication Services in a .NET application while effectively managing sensitive information using DotNetEnv.
