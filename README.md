@@ -3,6 +3,7 @@
 Setup and leverage the Azure Communication Service to send emails.
 
 I was inspired to this project by the following 2 articles:
+
 - <https://medienstudio.net/development-en/deploying-azure-email-communication-service-with-bicep/>
 - <https://learn.microsoft.com/de-de/azure/communication-services/quickstarts/email/send-email?tabs=windows%2Cconnection-string&pivots=programming-language-csharp>
 
@@ -22,7 +23,7 @@ If the infrastructure is set up completely, you just need to add your domain con
 
 After that you are ready for the next step.
 
-## Sending Emails with Azure Communication Services in .NET Using DotNetEnv
+## Sending Emails with Azure Communication Services in .NET
 
 Modern applications often require the capability to send transactional and marketing emails to users. Azure Communication Services provides a robust platform for enabling email communication within your applications. In this article, we'll explore how to send emails using Azure Communication Services in a .NET application while effectively managing sensitive information using DotNetEnv.
 
